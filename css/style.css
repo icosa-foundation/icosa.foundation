@@ -1,0 +1,29 @@
+body {
+  background-color: #ddd;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav a img{
+  height: 28px;
+  width: auto;
+  margin: 0 0.3em;
+}
+
+.logo img {
+  margin-top: 2em;
+  width: 50%;
+}
+
+.flex-equal > * {
+  flex: 1;
+}
+
+footer {
+  position: absolute;
+  bottom:0;
+  max-width: 100% !important;
+}
