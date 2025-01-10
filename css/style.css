@@ -2,6 +2,15 @@ body {
   background-color: #ddd;
 }
 
+a {
+  text-decoration: none; /* No underline by default */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
 footer nav {
   display: flex;
   justify-content: center;
@@ -22,8 +31,35 @@ footer nav a img{
   flex: 1;
 }
 
+.logo-row {
+  margin-top: 2em;
+  padding: 1em 0;
+  background-color: #fff; /* Optional for better separation */
+}
+
+.logo-row img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.logo-row .bottom-logos img {
+  height: 150px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.logo-row .top-logos img {
+  height: 120px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.funding-row {
+  font-size: small;
+}
+
 footer {
-  position: absolute;
-  bottom:0;
+  padding: 1em 0;
   max-width: 100% !important;
 }
