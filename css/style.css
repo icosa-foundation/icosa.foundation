@@ -1,7 +1,3 @@
-body {
-  background-color: #ddd;
-}
-
 a {
   text-decoration: none; /* No underline by default */
 }
@@ -34,7 +30,6 @@ footer nav a img{
 .logo-row {
   margin-top: 2em;
   padding: 1em 0;
-  background-color: #fff; /* Optional for better separation */
 }
 
 .logo-row img {
@@ -59,13 +54,8 @@ footer nav a img{
   font-size: small;
 }
 
-footer {
-  padding: 1em 0;
-  max-width: 100% !important;
-}
-
 .subscribe-row {
-  background-color: #fff; /* Optional for better separation */
+  margin-block-end: 1rem;
 }
 
 .subscribe-row .ml-subscribe-form {
@@ -73,3 +63,8 @@ footer {
   margin: 1em 0 !important;
 }
 
+footer {
+  padding: 1em 0;
+  max-width: 100% !important;
+  background-color: #ddd;
+}
